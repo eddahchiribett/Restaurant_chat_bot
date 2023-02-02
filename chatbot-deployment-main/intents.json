@@ -1,0 +1,213 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Greetings"
+      ],
+      "responses": [
+        "Hey :-), how may I assist?",
+        "Hello, thanks for visiting. What would you like to do?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Leaving now",
+        "Goodnight",
+        "Take care",
+        "Okay"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!",
+        "Very grateful",
+        "Appreciate it"
+      ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "contact",
+      "patterns": [
+        "contact information",
+        "how do we contact you",
+        "how can i contact you",
+        "can i get the contact details",
+        "Can you give me the contact of an executive?",
+        "What is the help desk phone number?",
+        "Can you give me your number",
+        "Can i get the customer care number?",
+        "Can I get help desk number",
+        "Can I call someone?",
+        "I want to speak to someone.",
+        "Is there a phone number to call?"
+      ],
+      "responses": ["You can contact us at contact@chickeninn.com, our help desk number is 0712345678."]
+    },
+    {"tag": "location",
+      "patterns": [
+        "what is the location?",
+        "whats the location",
+        "where are you located?",
+        "where is the restaurant located?",
+        "address",
+        "whats the address?",
+        "what is the address of the restaurant",
+        "I am not able to locate you",
+        "I can't find your location",
+        "Can i have the address of the restaurant",
+        "how to reach there?",
+        "Address?",
+        "what is the address of this restaurant?"],
+      "responses": ["You can locate us at KFC, Kimathi Street, opposite Nation Center, Nairobi"]
+    },
+    {"tag": "identity",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "who are you",
+        "Are you human?",
+        "Am i talking to a bot",
+        "Are you a bot",
+        "Can i have your name please",
+        "name"],
+      "responses": ["You can call me KFCbot.", "I'm KFCbot!", "I'm KFCbot."]
+    },
+    {"tag": "hours of operation",
+      "patterns": [
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation",
+        "hours",
+        "what is the timing",
+        "when are you open",
+        "Are you open on all days?",
+        "are you open now",
+        "are you open on holidays",
+        "are you guys open on all weekdays?",
+        "working hours",
+        "hours",
+        "what are your working hours?"],
+      "responses": ["We are open 10am-12am Monday-Friday!"]
+     },
+      {
+      "tag": "order_food",
+      "patterns": [
+        "Can I place an order?",
+        "Id like to order something",
+        "Order?",
+        "could i get something to eat"
+      ],
+      "responses": [
+        "Great! You can place your order by calling our hotline, visiting our website or using our mobile app. Would you like me to connect you with an agent?"
+      ]
+    },
+{
+            "tag": "menu",
+            "patterns": [
+                "What's on the menu?",
+                "What do you have to eat?",
+                "What are my options?",
+                "What can I order?"
+            ],
+            "responses": [
+                "We have a chicken sandwich, a spicy sandwich, and a grilled sandwich on our menu. Which one would you like to know more about?"
+            ]
+        },
+        {
+            "tag": "chicken sandwich",
+            "patterns": [
+                "Tell me about the chicken sandwich",
+                "What's in the chicken sandwich?",
+                "How much is the chicken sandwich?"
+            ],
+            "responses": [
+                "Our chicken sandwich is made with a crispy chicken fillet, lettuce, and mayo on a sesame seed bun. It costs $4.99."
+            ]
+        },
+        {
+            "tag": "spicy sandwich",
+            "patterns": [
+                "What's in the spicy sandwich?",
+                "How much does the spicy sandwich cost?",
+                "I want the spicy sandwich"
+            ],
+            "responses": [
+                "Our spicy sandwich is made with a spicy chicken fillet, lettuce, and mayo on a sesame seed bun. It costs $5.99."
+            ]
+        },
+        {
+            "tag": "grilled sandwich",
+            "patterns": [
+                "What's in the grilled sandwich?",
+                "How much is the grilled sandwich?",
+                "Can I order the grilled sandwich?"
+            ],
+            "responses": [
+                "Our grilled sandwich is made with a grilled chicken fillet, lettuce, and mayo on a sesame seed bun. It costs $4.99."
+            ]
+        },
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+         "Delivery around CBD is free and will take approximately 1-2hrs",
+        "Delivery outside CBD and other counties will take 1-2 days",
+        "Delivery within countries in Africa will take 3-4 days?"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
